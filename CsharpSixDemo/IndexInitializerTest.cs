@@ -30,13 +30,17 @@ namespace CsharpSixDemo
             {
                 ["Harry"] = new Wizard(),
                 ["Hermione"] = new Wizard("Hermione", "Granger"),
+
+                // Does not call Add, instead calls this[key] 
+                // That's why does not throw exception
+                ["Harry"] = new Wizard("Ron", "Weisley"),
             };
 
 
             [Test]
             public void The_keys_have_associated_values()
             {
-                Assert.That(_sut["Harry"].First, Is.EqualTo("Harry"));
+                Assert.That(_sut["Harry"].First, Is.EqualTo("Ron"));
                 Assert.That(_sut["Hermione"].First, Is.EqualTo("Hermione"));
             }
         }

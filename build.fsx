@@ -18,7 +18,7 @@ Target "Build" (fun _ ->
 )
 
 Target "Test" (fun _ ->
-  ["CsharpSixDemo/bin/debug/CsharpSixDemo.dll"]
+  ["CsharpSixDemo/bin/Release/CsharpSixDemo.dll"]
   |> NUnit (fun p ->
     {p with
       DisableShadowCopy = true;
