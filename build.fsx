@@ -17,5 +17,16 @@ Target "Build" (fun _ ->
   build config sln
 )
 
+Target "Test" (fun _ ->
+  ["CsharpSixDemo/bin/debug/CsharpSixDemo.dll"]
+  |> NUnit (fun p ->
+    {p with
+      DisableShadowCopy = true;
+    }
+  )
+)
 
-RunTargetOrDefault "Build"
+"Build" 
+  ==> "Test"
+
+RunTargetOrDefault "Test"
