@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ExpressionBodiesOnPropertiesTest.cs" />
+    <Compile Include="UsingStaticTest.cs" />
     <Compile Include="GetterOnlyInitializationTest.cs" />
     <Compile Include="ExpressionBodiesOnMethodsTest.cs" />
     <Compile Include="AutoPropertiesInitializationTest.cs" />
