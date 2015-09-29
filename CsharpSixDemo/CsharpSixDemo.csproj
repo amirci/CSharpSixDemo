@@ -44,7 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GetterOnlyInitializationTest.cs" />
+    <Compile Include="ExpressionBodiesOnPropertiesTest.cs" />
+    <Compile Include="GetterOnlyInitializationTest - Copy.cs" />
+    <Compile Include="ExpressionBodiesOnMethodsTest.cs" />
     <Compile Include="AutoPropertiesInitializationTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
