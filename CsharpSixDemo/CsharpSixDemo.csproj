@@ -48,6 +48,7 @@
     <Compile Include="NameOfOperatorTest.cs" />
     <Compile Include="ExceptionFilterTest.cs" />
     <Compile Include="IndexInitializerTest.cs" />
+    <Compile Include="AwaitCatchAndFinallyTest.cs" />
     <Compile Include="StringInterpolationTest.cs" />
     <Compile Include="NullConditionalOperatorTest.cs" />
     <Compile Include="UsingStaticTest.cs" />
