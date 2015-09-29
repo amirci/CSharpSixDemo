@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="ExpressionBodiesOnPropertiesTest.cs" />
     <Compile Include="NameOfOperatorTest.cs" />
+    <Compile Include="ExceptionFilterTest.cs" />
     <Compile Include="StringInterpolationTest.cs" />
     <Compile Include="NullConditionalOperatorTest.cs" />
     <Compile Include="UsingStaticTest.cs" />
